@@ -129,3 +129,11 @@
 .sign-up-text-container {
     color: #ebe7eb;
 }
+
+.footer {
+    height: 60px;
+    background-color: #1f2937;
+    color: #ebe7eb;
+    text-align: center;
+    padding-top: 20px;
+}
