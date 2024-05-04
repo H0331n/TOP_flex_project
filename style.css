@@ -38,7 +38,8 @@
     max-width: 600px;
 }
 
-.sign-up-button {
+.sign-up-button,
+.button-border {
     width: 100px;
     padding: 2px 15px;
     background-color: #3883f6;
@@ -101,4 +102,30 @@
     text-align: left;
     width: 650px;
     margin-left: 15px;
+}
+
+.sign-up-container {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 80px;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #3883f6;
+    width: 850px;
+    height: 90px;
+    border-radius: 5px;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-border {
+    border: solid 2px white;
+}
+
+.sign-up-text-container {
+    color: #ebe7eb;
 }
