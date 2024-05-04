@@ -20,3 +20,28 @@
     font-size: 18px;
     text-decoration: none;
 }
+
+.about-container {
+    background-color: #1f2937;
+    color: #ebe7eb;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 90px 0 90px;
+}
+
+.about-text-container {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    max-width: 600px;
+}
+
+.sign-up-button {
+    width: 100px;
+    padding: 2px 15px;
+    background-color: #3883f6;
+    color: #ebe7eb;
+    border-radius: 5px;
+    border: none;
+}
