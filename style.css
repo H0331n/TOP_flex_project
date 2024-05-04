@@ -46,3 +46,38 @@
     border-radius: 5px;
     border: none;
 }
+
+.why-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.items-container div {
+    border: solid 5px #3883f6;
+    border-radius: 5px;
+    width: 150px;
+    height: 220px;
+    text-align: center;
+}
+
+.why-container-paragraph {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 35px;
+}
+
+.items-container div img {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    display: block;
+}
